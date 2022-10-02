@@ -6,7 +6,6 @@ abbr[epub|type~="se:era"]{
 }
 
 blockquote{
-	border: none;
 	margin-left: 1em;
 	margin-right: 1em;
 }
