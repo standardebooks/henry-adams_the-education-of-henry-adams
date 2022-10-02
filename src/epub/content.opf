@@ -30,7 +30,7 @@
 		<meta property="file-as" refines="#title">Education of Henry Adams, The</meta>
 		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="subtitle">An Autobiography</dc:title>
-		<meta property="file-as" refines="#subtitle">Autobiography, An </meta>
+		<meta property="file-as" refines="#subtitle">Autobiography, An</meta>
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Education of Henry Adams: An Autobiography</dc:title>
 		<meta property="file-as" refines="#fulltitle">Education of Henry Adams, The</meta>
