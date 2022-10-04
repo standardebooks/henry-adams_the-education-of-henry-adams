@@ -37,10 +37,6 @@ p span.i1{
 }
 /* end verse formatting */
 
-[epub|type~="z3998:diary-entry"] > p{
-	text-indent: 0;
-}
-
 [epub|type~="z3998:letter"] header{
 	font-variant: small-caps;
 	text-align: right;
