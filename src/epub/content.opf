@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/henry-adams/the-education-of-henry-adams</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-10-04T17:27:17Z</dc:date>
+		<meta property="dcterms:modified">2022-10-04T17:27:17Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -44,18 +44,21 @@
 		<meta property="se:subject">Autobiography</meta>
 		<meta property="se:subject">Memoir</meta>
 		<meta property="se:subject">Nonfiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Pulitzer Prize for Biography or Autobiography Winners</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">3</meta>
 		<dc:description id="description">A prominent and caustic historian reflects on the reasons that “the more he was educated, the less he understood,” and what he believes the future holds for American society.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;One of the most well-known and influential autobiographies, &lt;i&gt;The Education of Henry Adams&lt;/i&gt; is told in the third person, as if its author were watching his own life unwind. It begins with his early life in Quincy, the family seat outside of Boston, soon moving to primary school, Harvard College, and beyond. Later he learns about the unpredictability of politics from statesmen and diplomats, and the newest discoveries in technology, science, history, and art from some of the most important thinkers and creators of the day. In essentially every case, Adams claims, his education and upbringing let him down, leaving him in the dark.&lt;/p&gt;
+			&lt;p&gt;One of the most well-known and influential autobiographies ever written, &lt;i&gt;The Education of Henry Adams&lt;/i&gt; is told in the third person, as if its author were watching his own life unwind. It begins with his early life in Quincy, the family seat outside of Boston, and soon moves on to primary school, Harvard College, and beyond. He learns about the unpredictability of politics from statesmen and diplomats, and the newest discoveries in technology, science, history, and art from some of the most important thinkers and creators of the day. In essentially every case, Adams claims, his education and upbringing let him down, leaving him in the dark.&lt;/p&gt;
 			&lt;p&gt;But as the historian David S. Brown puts it, this is a “charade”: &lt;i&gt;The Education&lt;/i&gt;’s “greatest irony is its claim to telling the story of its author’s ignorance, confusion, and misdirection.” Instead, Adams uses its “vigorous prose and confident assertions” to attack “the West after 1400.” For instance, industrialization and technology make Adams wonder “whether the American people knew where they were driving.” And in one famous chapter, “The Dynamo and the Virgin,” he contrasts the rise of electricity and the power it brings with the strength and resilience of religious belief in the Middle Ages.&lt;/p&gt;
-			&lt;p&gt;The grandson and great-grandson of two presidents and the son of a politician and diplomat who served under Lincoln as minister to Great Britain, &lt;a href="https://standardebooks.org/ebooks/henry-adams"&gt;Henry Adams&lt;/a&gt; (1838–1918) was born into immense privilege, as he knew well: “Probably no child, born in the year, held better cards than he.” After growing up a Boston Brahmin, he worked as a journalist, historian, and professor, moving in early middle age to Washington.&lt;/p&gt;
+			&lt;p&gt;The grandson and great-grandson of two presidents and the son of a politician and diplomat who served under Lincoln as minister to Great Britain, &lt;a href="https://standardebooks.org/ebooks/henry-adams"&gt;Adams&lt;/a&gt; was born into immense privilege, as he knew well: “Probably no child, born in the year, held better cards than he.” After growing up a Boston Brahmin, he worked as a journalist, historian, and professor, moving in early middle age to Washington.&lt;/p&gt;
 			&lt;p&gt;Although Adams distributed a privately printed edition of a hundred copies of &lt;i&gt;The Education&lt;/i&gt; for friends and family in 1907, it wasn’t published more widely until 1918, the year he died. The book won the Pulitzer Prize for biography in 1919, and in 1999 a Modern Library panel placed it first on its list of the best nonfiction books published in the twentieth century.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2044</dc:source>
 		<dc:source>https://archive.org/details/educationofhenr00adam</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">177458</meta>
+		<meta property="se:reading-ease.flesch">54.76</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Education_of_Henry_Adams</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-adams_the-education-of-henry-adams</meta>
 		<dc:creator id="author">Henry Adams</dc:creator>
@@ -88,6 +91,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
