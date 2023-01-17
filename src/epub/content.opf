@@ -38,7 +38,7 @@
 		<dc:subject id="subject-1">Adams, Henry, 1838-1918</dc:subject>
 		<dc:subject id="subject-2">Historians -- United States -- Biography</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="term" refines="#subject-1">n80013444</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008105657</meta>
 		<meta property="se:subject">Autobiography</meta>
