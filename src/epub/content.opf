@@ -60,7 +60,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2044</dc:source>
 		<dc:source>https://archive.org/details/educationofhenr00adam</dc:source>
-		<meta property="se:word-count">177459</meta>
+		<meta property="se:word-count">177458</meta>
 		<meta property="se:reading-ease.flesch">54.76</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Education_of_Henry_Adams</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-adams_the-education-of-henry-adams</meta>
