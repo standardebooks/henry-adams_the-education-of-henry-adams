@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-adams/the-education-of-henry-adams</dc:identifier>
 		<dc:date>2022-10-04T17:27:17Z</dc:date>
 		<meta property="dcterms:modified">2022-10-04T17:27:17Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -42,9 +43,9 @@
 		<meta property="term" refines="#subject-1">n80013444</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008105657</meta>
-		<meta property="se:subject">Autobiography</meta>
-		<meta property="se:subject">Memoir</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Autobiography</meta>
+		<meta property="schema:genre">Memoir</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Pulitzer Prize for Biography or Autobiography Winners</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">3</meta>
@@ -61,34 +62,36 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2044</dc:source>
 		<dc:source>https://archive.org/details/educationofhenr00adam</dc:source>
-		<meta property="se:word-count">176638</meta>
-		<meta property="se:reading-ease.flesch">54.76</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Education_of_Henry_Adams</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-adams_the-education-of-henry-adams</meta>
+		<meta property="schema:wordCount">176638</meta>
+		<meta property="schema:educationalLevel">54.76</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Education_of_Henry_Adams" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/henry-adams_the-education-of-henry-adams" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Henry Adams</dc:creator>
 		<meta property="file-as" refines="#author">Adams, Henry</meta>
-		<meta property="se:name.person.full-name" refines="#author">Henry Brooks Adams</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_Adams</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80013444</meta>
+		<meta property="schema:alternateName" refines="#author">Henry Brooks Adams</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_Adams" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80013444.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Claude Monet</dc:contributor>
 		<meta property="file-as" refines="#artist">Monet, Claude</meta>
-		<meta property="se:name.person.full-name" refines="#artist">Oscar-Claude Monet</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Claude_Monet</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79055527</meta>
+		<meta property="schema:alternateName" refines="#artist">Oscar-Claude Monet</meta>
+		<link href="https://en.wikipedia.org/wiki/Claude_Monet" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79055527.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="writer-of-preface-1">Henry Cabot Lodge</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface-1">Lodge, Henry Cabot</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-preface-1">https://en.wikipedia.org/wiki/Henry_Cabot_Lodge</meta>
-		<meta property="se:url.authority.nacoaf" refines="#writer-of-preface-1">http://id.loc.gov/authorities/names/n79092575</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_Cabot_Lodge" refines="#writer-of-preface-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79092575.html" refines="#writer-of-preface-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-preface-1" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="transcriber-1">Richard Fane</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Fane, Richard</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">John Rambow</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rambow, John</meta>
-		<meta property="se:url.homepage" refines="#producer-1">http://johnrambow.com/</meta>
+		<link href="http://johnrambow.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -97,7 +100,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
