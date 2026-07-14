@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Education of Henry Adams: An Autobiography</dc:title>
 		<meta property="file-as" refines="#fulltitle">Education of Henry Adams, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Adams, Henry, 1838-1918</dc:subject>
 		<dc:subject id="subject-2">Historians -- United States -- Biography</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
